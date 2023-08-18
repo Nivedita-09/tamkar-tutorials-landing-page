@@ -10,18 +10,19 @@ import Icon6 from "../../img/icon6.svg";
 import Gallery from "./Gallery";
 import DirectorMsg from "./DirectorMsg";
 import Achievements from "./Achievements";
+
 export default function HomePage() {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full ">
         <Image
           src={BgPicture}
           alt="Background Picture"
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="w-full">
-        <div className="w-4/5 mx-auto my-10 h-2/4 border-2 border-solid border-black p-5 flex flex-row">
+      <div className="w-full ">
+        <div className="w-4/5 mx-auto my-20 h-2/4 border-2 border-solid border-black p-5 flex flex-row">
           <div className="w-1/2">
             <div className="flex flex-row w-1/3  justify-around">
             <div className="w-2 h-12 bg-secondary"></div>
